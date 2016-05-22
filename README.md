@@ -8,6 +8,7 @@ You can download freeglut [here](http://www.transmissionzero.co.uk/computing/usi
 Compiling:
 
 g++ -c -o mandelbrot.o mandelbrot.cpp
+
 g++ -o mandelbrot.exe mandelbrot.o -lfreeglut -lopengl32
 
 
